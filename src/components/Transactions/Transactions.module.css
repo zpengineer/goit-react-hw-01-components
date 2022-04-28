@@ -1,0 +1,26 @@
+.transactions {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+th {
+  /* border: 1px solid grey; */
+  background-color: #df2bff;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 5px 0 5px 0;
+}
+
+td {
+  /* border: 1px solid grey; */
+  font-weight: 300;
+  font-size: 13px;
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(234, 181, 250);
+}
