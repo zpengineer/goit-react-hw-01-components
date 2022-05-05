@@ -3,10 +3,10 @@ import Statistics from 'components/Statistics';
 import FriendList from 'components/FriendList';
 import TransactionHistory from 'components/Transactions';
 import Section from 'components/Section';
-import user from './user.json';
-import data from './data.json';
-import friends from './friends.json';
-import transactions from './transactions.json';
+import user from './data/user.json';
+import data from './data/data.json';
+import friends from './data/friends.json';
+import transactions from './data/transactions.json';
 
 export default function App() {
   return (
